@@ -1,0 +1,65 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.8); 
+            color: pink;
+            padding: 5px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: left 1mm;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); 
+            border-radius: 20px;
+            margin: 20px;
+        }
+
+            img {
+            border-radius: 60%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        h2, h3, h4 {
+            margin-top: 10px;
+            color: pink;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
+            color: pink;
+        }
+
+        a {
+            margin: 0 10px;
+            color: pink;
+        }
+
+        a:hover {
+            color: pink;
+        }
